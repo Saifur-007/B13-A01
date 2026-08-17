@@ -52,6 +52,7 @@
     background: url('./assets/hero-bg.png') no-repeat center center;
     background-size: cover;
     padding: 120px 70px 120px 134px;
+    gap: 16px;
 }
 .hero .info{
     background-color: #ffffff;
@@ -72,17 +73,55 @@
 }
 .hero h1{
     width: 100%;
-    height: 120px;
     font-weight: 700;
     font-size: 64px;
     line-height: 120%;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
+    text-transform: capitalize;
 }
-.hero p{
+.hero h1 spam{
+    color: #469165;
+}
+.hero > p{
     width: 100%;
-    height: 48px;
     font-weight: 400;
     font-size: 20px;
     line-height: 120%;
-    color: #000000;
+    color: #ffffff;
+    text-align: center;
+}
+.hero_buttons{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-top: 16px;
+}
+.hero_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size:16px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #469165;
+    padding: 12px 16px;
+    gap: 10px;
+    border-radius: 4px;
+}
+.hero_button_secondary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size:16px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 12px 16px;
+    gap: 10px;
+    border-radius: 4px;
 }
