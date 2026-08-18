@@ -236,9 +236,86 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
     gap: 40px;
+    width: 700px;
+}
+.Second_Brain_Section_content_text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+.Second_Brain_Section_content_text h2{
+    color: var(--30-b-868, #469165);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    text-transform: uppercase;
+}
+.Second_Brain_Section_content_text h3{
+    color: var(--001931, var(--Color, #001931));
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.Second_Brain_Section_content_text p{
+    color: var(--627382, #627382);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
 }
 .Second_Brain_Section_list{
     list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.Second_Brain_Image{
+    width: 600px;
+    height: 600px;
+}
+.Second_Brain_Section_list{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.Second_Brain_Section_checklist-row{
+    display: flex;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+}
+second_Brain_Section_checklist-row p{
+    color: var(--Style, #001931);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+.Second_Brain_Section_list_img_circle{
+    width: 16.25px;
+    height: 16.25px;
+}
+.check-icon-background{
+    width: 20px;
+    height: 20px;
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Second_Brain_Section_list li{
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    align-self: stretch;
+    gap: 6px;
 }
