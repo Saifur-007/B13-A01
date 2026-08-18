@@ -12,7 +12,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 16px 120px;
-    margin:0px;
+    margin:0px, none;
+    width: 1360px;
+    justify-self: center;
 }
 .nav .img{
     width: 139px;
@@ -53,6 +55,7 @@
     background-size: cover;
     padding: 120px 70px 120px 134px;
     gap: 16px;
+
 }
 .hero .info{
     background-color: #ffffff;
@@ -131,6 +134,8 @@
     align-items: center;
     padding: 60px 120px;
     gap: 44px;
+    width: 1360px;
+    margin: 0 auto;
 }
 .Notes_Section_content{
     display: flex;
@@ -195,6 +200,9 @@
     gap: 16px;
     padding: 24px;
     height: 300px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
 }
 .Notes_Section_box_02{
     display: flex;
@@ -205,7 +213,11 @@
     gap: 16px;
     padding: 24px;
     height: 300px;
-}.Notes_Section_box_03{
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
+}
+.Notes_Section_box_03{
     display: flex;
     text-align: center;
     flex-direction: column;
@@ -214,6 +226,9 @@
     gap: 16px;
     padding: 24px;
     height: 300px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
 }
 .Notes_Section_box_04{
     display: flex;
@@ -224,6 +239,9 @@
     gap: 16px;
     padding: 24px;
     height: 300px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.06);
 }
 .Second_Brain_Section{
     Display: flex;
@@ -231,6 +249,8 @@
     align-items: center;
     padding:120px;
     gap: 60px;
+    width: 1360px;
+    margin: 0 auto;
 }
 .Second_Brain_Section_content{
     display: flex;
@@ -318,4 +338,76 @@ second_Brain_Section_checklist-row p{
     padding: 0px;
     align-self: stretch;
     gap: 6px;
+}
+.Early_Access_Section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 120px 120px 120px;
+}
+
+.Early_Access_Section_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.Early_Access_Section_background{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 80px 40px;
+    border-radius: 12px;
+    background: #F7F6F2;
+    width: 1360px;
+}
+.Early_Access_Section_content h2{
+    color: var(--Style, #001931);
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.Early_Access_Section_content p{
+    color: var(--627382, #627382);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.Early_Access_Section_button_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+.Early_Access_Section_button_container > p{
+    color: var(--627382, #627382);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+.Early_Access_Section_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size:16px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    background-color: #469165;
+    padding: 12px 16px;
+    gap: 10px;
+    border-radius: 4px;
 }
